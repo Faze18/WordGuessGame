@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>
+        Hangman
+    </title>
+</head>
+
+<body class = "bodyStyle">
+
+    <div class="container">
+                        <!--HEADER-->
+
+        <div class="row">
+            <div class="col-md-12">
+            </div>
+        </div>
+                        <!--Instructions-->
+        <div class="row">
+                <!-- <div id="wins" class=" col-lg-4 col-md-4 winStyle"></div> -->
+
+                <div class=" col-lg-4 col-lg-push-4 col-md-4 col-md-push-4 col-sm-12  instructionsStyle">
+                    <p>A new Judge has been elected and the courtroom proceedings have changed. Now instead of a trial by jury, there is a trial by wordgame.</p><br><p style="font-size:30px; font-weight:bold; font-variant:small-caps"> The Game: Hangman</p><br><p>You, a young lawyer, have a chance to save your client from the gallows, and return them to their life. The only way to prove their innocence is to correctly guess the word. Each wrong letter puts your client one step closer to their fate. After six wrong guesses your client's fate is sealed. </p>
+                </div>
+                <div id="wins"  class=" col-lg-4 col-lg-pull-4 col-md-pull-4 col-md-4 col-sm-6 winStyle"></div>
+
+                <div id="losses" class=" col-lg-4 col-md-4 col-sm-6 lossStyle">
+                    </div>
+                    </div>
+
+                      
+        <!-- ROW MESSAGE -->
+
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <!-- WIN LOSS REPLAY -->
+
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <!-- ROW EMPTY WORD -->
+        <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                <div id = "chances" class="col-lg-4 col-md-4 col-sm-4 chancesStyle">
+                    <!-- GUESSED LETTERS -->
+    
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4"></div>
+            </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div id= "empty" class="col-md-4 emptyStyle"></div>
+                    <div id = "guessed" class="col-md-4 guessedStyle"></div>
+
+
+            <div class="col-md-1"></div>
+        </div>
+        <!--GUESSED LETTERS-->
+
+    </div>
+
+    <!-- <div id="empty">
+    </div>
+    <div id="guessed">
+    </div>
+    <div id="wins">
+    </div>
+    <div id="losses">
+    </div>
+    <div id="chances">
+    </div> -->
+
+
+</body>
+
+<footer>
+    <script src="assets/javascript/game.js"></script>
+    <!-- 5 is last working-->
+</footer>
+
+</html>
